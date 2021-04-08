@@ -1,0 +1,18 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+
+import TopBarDetail from ".";
+
+<Meta title="Components/TopBarDetail" />
+
+## TopBarDetail
+
+TODO: add component description
+
+<Canvas>
+  <Story name="Default">
+    <TopBarDetail />
+  </Story>
+  <Story name="With Custom Title" args={{ title: "Title" }}>
+    {(args) => <TopBarDetail {...args} />}
+  </Story>
+</Canvas>

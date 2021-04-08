@@ -9,3 +9,5 @@ export { default as GlobalStyle } from "./global.js";
 
 export { default as Button } from "./components/Button";
 export { default as Icon } from "./components/Icon";
+export { default as TopBar } from "./components/TopBar";
+export { default as TopBarDetail } from "./components/TopBarDetail";
