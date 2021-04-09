@@ -18,7 +18,7 @@ const StyledDiv3 = styled.div`
 /*
  * TopBarDetail component.
  */
-const TopBarDetail = ({ title = 'Default' }) => {
+const TopBarDetail = ({ title = 'Default', rightIcon }) => {
   return (
     <>
       <TopWrapper>
@@ -28,6 +28,11 @@ const TopBarDetail = ({ title = 'Default' }) => {
         <StyledDiv3>
           <h4>{title}</h4>
         </StyledDiv3>
+        {rightIcon != null && rightIcon.length && (
+          <Button isIcon color="#fff">
+            <Icon name={rightIcon} />
+          </Button>
+        )}
       </TopWrapper>
     </>
   );

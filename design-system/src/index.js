@@ -18,3 +18,4 @@ export { default as ProductContainer } from "./components/ProductContainer";
 export { default as SectionHeader } from "./components/SectionHeader";
 export { default as TopBar } from "./components/TopBar";
 export { default as TopBarDetail } from "./components/TopBarDetail";
+export { default as TopContainer } from "./components/TopContainer";

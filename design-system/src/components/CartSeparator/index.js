@@ -1,11 +1,12 @@
 
 import React from "react";
 import styled from "styled-components";
+import { colors } from 'tokens';
 
 const StyledBorder = styled.div`
   width: 100%;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: ${colors.secondaryBlack10};
   margin: 32px 0;
 `;
 
