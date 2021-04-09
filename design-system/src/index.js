@@ -12,6 +12,7 @@ export { default as CartItem } from "./components/CartItem";
 export { default as Icon } from "./components/Icon";
 export { default as ProductCard } from "./components/ProductCard";
 export { default as ProductContainer } from "./components/ProductContainer";
+export { default as ProductDetail } from "./components/ProductDetail";
 export { default as SectionHeader } from "./components/SectionHeader";
 export { default as TopBar } from "./components/TopBar";
 export { default as TopBarDetail } from "./components/TopBarDetail";
