@@ -2,6 +2,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button, Icon } from "design-system";
+import { colors } from 'tokens';
 
 const StyledDiv3 = styled.div`
   display: flex;
@@ -25,7 +26,7 @@ const StyledButton = styled(Button)`
 const StyledBorder = styled.div`
   width: 1px;
   height: 16px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: ${colors.secondaryBlack10};
   margin: 0 8px;
 `;
 
@@ -53,7 +54,5 @@ const SectionHeader = ({ title = 'Default' }) => {
     </StyledDiv3>
   );
 };
-
-export const StyledSectionHeader = styled.div``;
 
 export default SectionHeader;

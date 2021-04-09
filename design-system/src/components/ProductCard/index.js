@@ -1,6 +1,7 @@
 
 import React from "react";
 import styled from "styled-components";
+import { colors } from "tokens";
 import item1Img from "../../assets/item1.png";
 
 const StyledDiv6 = styled.div`
@@ -14,7 +15,7 @@ const StyledImg = styled.img`
 `;
 
 const StyledP = styled.p`
-  color: #f15223;
+  color: ${colors.primaryOrange10};
   font-weight: 700;
   margin-top: 8px;
 `;

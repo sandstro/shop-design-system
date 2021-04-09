@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Apr 2021 10:54:47 GMT
+ * Generated on Fri, 09 Apr 2021 08:43:27 GMT
  */
 
 export const headline1FontSize = "36px";
