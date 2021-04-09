@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button, Icon } from "design-system";
+import avatarImg from "../../assets/avatar.png";
 
 const TopWrapper = styled.div`
   display: flex;
@@ -21,11 +22,11 @@ const Styledh1 = styled.h1`
 /*
  * TopBar component.
  */
-const TopBar = ({ title = 'Default' }) => {
+const TopBar = ({ title = 'Default', src = avatarImg }) => {
   return (
     <>
       <TopWrapper>
-        <StyledImage />
+        <StyledImage src={src} />
         <Button isOutline>
           <Icon name="menu" />
         </Button>
