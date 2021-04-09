@@ -1,8 +1,9 @@
 
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon } from "design-system";
 import { colors } from 'tokens';
+import Button from "../Button";
+import Icon from "../Icon";
 
 const StyledDiv3 = styled.div`
   display: flex;
