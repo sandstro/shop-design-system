@@ -54,6 +54,4 @@ const SectionHeader = ({ title = 'Default' }) => {
   );
 };
 
-export const StyledSectionHeader = styled.div``;
-
 export default SectionHeader;

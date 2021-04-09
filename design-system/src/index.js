@@ -9,6 +9,9 @@ export { default as GlobalStyle } from "./global.js";
 
 export { default as Button } from "./components/Button";
 export { default as CartItem } from "./components/CartItem";
+export { default as CartSeparator } from "./components/CartSeparator";
+export { default as CartSummary } from "./components/CartSummary";
+export { default as CartTotal } from "./components/CartTotal";
 export { default as Icon } from "./components/Icon";
 export { default as ProductCard } from "./components/ProductCard";
 export { default as ProductContainer } from "./components/ProductContainer";
