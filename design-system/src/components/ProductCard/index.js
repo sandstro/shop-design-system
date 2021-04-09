@@ -15,7 +15,7 @@ const StyledImg = styled.img`
 `;
 
 const StyledP = styled.p`
-  color: ${colors.primaryOrange10};
+  color: ${colors.primaryOrange100};
   font-weight: 700;
   margin-top: 8px;
 `;

@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon } from "design-system";
 import avatarImg from "../../assets/avatar.png";
+import Button from "../Button";
+import Icon from "../Icon";
 
 const TopWrapper = styled.div`
   display: flex;

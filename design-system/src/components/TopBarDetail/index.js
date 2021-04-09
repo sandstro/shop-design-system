@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Button, Icon } from "design-system";
+import Button from "../Button";
+import Icon from "../Icon";
 
 const TopWrapper = styled.div`
   display: flex;
@@ -29,7 +30,7 @@ const TopBarDetail = ({ title = 'Default', rightIcon }) => {
           <h4>{title}</h4>
         </StyledDiv3>
         {rightIcon != null && rightIcon.length && (
-          <Button isIcon color="#fff">
+          <Button isOutline color="#fff">
             <Icon name={rightIcon} />
           </Button>
         )}
