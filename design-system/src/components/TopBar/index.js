@@ -36,8 +36,4 @@ const TopBar = ({ title = 'Default', src = avatarImg }) => {
   );
 };
 
-export const Wrapper = styled.div`
-
-`;
-
 export default TopBar;

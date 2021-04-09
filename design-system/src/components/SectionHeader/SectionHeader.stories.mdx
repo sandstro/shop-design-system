@@ -1,0 +1,18 @@
+import { Meta, Canvas, Story } from "@storybook/addon-docs/blocks";
+
+import SectionHeader from ".";
+
+<Meta title="Components/SectionHeader" />
+
+## SectionHeader
+
+TODO: add component description
+
+<Canvas>
+  <Story name="Default">
+    <SectionHeader />
+  </Story>
+  <Story name="With Custom Title" args={{ title: "Title" }}>
+    {(args) => <SectionHeader {...args} />}
+  </Story>
+</Canvas>
